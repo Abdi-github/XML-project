@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    
+    <g>
+        <ellipse cx="600" cy="300" rx="500" ry="135" stroke="#aaa" stroke-width="2" fill="#964b64"></ellipse>
+        <text x="600" y="300" alignment-baseline="middle" font-size="36" stroke-width="1" stroke="white" text-anchor="middle" fill="white">PORTUGAL Champions of Europe 2016 </text>
+        
+    </g>
+</svg>
+
+
+
+

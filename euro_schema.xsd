@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="euro_cup">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="group_stage" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="match" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="team" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute type="xs:nonNegativeInteger" name="score" use="optional"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:date" name="date" use="optional"/>
+                                    <xs:attribute type="xs:string" name="time" use="optional"/>
+                                    <xs:attribute type="xs:string" name="stadium" use="optional"/>
+                                    <xs:attribute type="xs:string" name="attendance" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="group" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="knock_out_phase">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="round_of_16">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="match" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="team" maxOccurs="unbounded" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute type="xs:nonNegativeInteger" name="score" use="optional"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:date" name="date" use="optional"/>
+                                                <xs:attribute type="xs:string" name="time" use="optional"/>
+                                                <xs:attribute type="xs:string" name="stadium" use="optional"/>
+                                                <xs:attribute type="xs:string" name="attendance" use="optional"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="quarter_finals">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="match" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="team" maxOccurs="unbounded" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute type="xs:nonNegativeInteger" name="score" use="optional"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:date" name="date" use="optional"/>
+                                                <xs:attribute type="xs:string" name="time" use="optional"/>
+                                                <xs:attribute type="xs:string" name="stadium" use="optional"/>
+                                                <xs:attribute type="xs:string" name="attendance" use="optional"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="semi_finals">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="match" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="team" maxOccurs="unbounded" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute type="xs:nonNegativeInteger" name="score" use="optional"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:date" name="date" use="optional"/>
+                                                <xs:attribute type="xs:string" name="time" use="optional"/>
+                                                <xs:attribute type="xs:string" name="stadium" use="optional"/>
+                                                <xs:attribute type="xs:string" name="attendance" use="optional"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="final">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="match">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="team" maxOccurs="unbounded" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute type="xs:nonNegativeInteger" name="score" use="optional"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:date" name="date"/>
+                                                <xs:attribute type="xs:string" name="time"/>
+                                                <xs:attribute type="xs:string" name="stadium"/>
+                                                <xs:attribute type="xs:string" name="attendance"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+

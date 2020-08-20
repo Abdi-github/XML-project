@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="euro_HTML_output.xsl"?>
+<euro_cup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="euro_schema.xsd">
+	<group_stage group="A">
+		<match date="2016-06-10" time="21:00" stadium="Stade de France"
+			attendance="75,113">
+			<team score="2">France</team>
+			<team score="1">Romania</team>
+		</match>
+		<match date="2016-06-11" time="15:00"
+			stadium="Stade Bollaert-Delelis" attendance="33,805">
+			<team score="0">Albania</team>
+			<team score="1">Switzerland</team>
+		</match>
+		<match date="2016-06-15" time="18:00" stadium="Parc des Princes"
+			attendance="43,576">
+			<team score="1">Romania</team>
+			<team score="1">Switzerland</team>
+		</match>
+		<match date="2016-06-15" time="18:00" stadium="Stade Vélodrome"
+			attendance="63,670">
+			<team score="2">France</team>
+			<team score="0">Albania</team>
+		</match>
+		<match date="2016-06-19" time="21:00"
+			stadium="Parc Olympique Lyonnais" attendance="49,752">
+			<team score="0">Romania</team>
+			<team score="1">Albania</team>
+		</match>
+		<match date="2016-06-19" time="21:00"
+			stadium="Stade Pierre-Mauroy" attendance="45,616">
+			<team score="0">Switzerland</team>
+			<team score="0">France</team>
+		</match>
+	</group_stage>
+	<group_stage group="B">
+		<match date="2016-06-11" time="18:00"
+			stadium="Nouveau Stade de Bordeaux" attendance="37,831">
+			<team score="2">Wales</team>
+			<team score="1">Slovakia</team>
+		</match>
+		<match date="2016-06-11" time="21:00" stadium="Stade Vélodrome"
+			attendance="62,343">
+			<team score="1">England</team>
+			<team score="1">Russia</team>
+		</match>
+		<match date="2016-06-15" time="15:00"
+			stadium="Stade Pierre-Mauroy" attendance="38,989">
+			<team score="1">Russia</team>
+			<team score="2">Slovakia</team>
+		</match>
+		<match date="2016-06-16" time="15:00"
+			stadium="Stade Bollaert-Delelis" attendance="34,033">
+			<team score="2">England</team>
+			<team score="1">Wales</team>
+		</match>
+		<match date="2016-06-20" time="21:00"
+			stadium="Stadium Municipal" attendance="28,840">
+			<team score="0">Russia</team>
+			<team score="3">Wales</team>
+		</match>
+		<match date="2016-06-20" time="21:00"
+			stadium="Stade Geoffroy-Guichard" attendance="39,051">
+			<team score="0">Slovakia</team>
+			<team score="0">England</team>
+		</match>
+	</group_stage>
+	<group_stage group="C">
+		<match date="2016-06-12" time="18:00" stadium="Stade de Nice"
+			attendance="33,742">
+			<team score="1">Poland</team>
+			<team score="0">Northern Ireland</team>
+		</match>
+		<match date="2016-06-12" time="21:00"
+			stadium="Stade Pierre-Mauroy" attendance="43,035">
+			<team score="2">Germany</team>
+			<team score="0">Ukraine</team>
+		</match>
+		<match date="2016-06-16" time="18:00"
+			stadium="Parc Olympique Lyonnais" attendance="51,043">
+			<team score="0">Ukraine</team>
+			<team score="2">Northern Ireland</team>
+		</match>
+		<match date="2016-06-16" time="21:00" stadium="Stade de France"
+			attendance="73,648">
+			<team score="0">Germany</team>
+			<team score="0">Poland</team>
+		</match>
+		<match date="2016-06-21" time="18:00"
+			stadium="Stade de Vélodrome" attendance="58,874">
+			<team score="0">Ukraine</team>
+			<team score="1">Poland</team>
+		</match>
+		<match date="2016-06-21" time="18:00" stadium="Parc des Princes"
+			attendance="44,125">
+			<team score="0">Northern Ireland</team>
+			<team score="1">Germany</team>
+		</match>
+	</group_stage>
+	<group_stage group="D">
+		<match date="2016-06-12" time="15:00" stadium="Parc des Princes"
+			attendance="43,842">
+			<team score="0">Turkey</team>
+			<team score="1">Croatia</team>
+		</match>
+		<match date="2016-06-13" time="15:00"
+			stadium="Stadium Municipal" attendance="29,400">
+			<team score="1">Spain</team>
+			<team score="0">Czech Republic</team>
+		</match>
+		<match date="2016-06-17" time="18:00"
+			stadium="Stade Geoffroy-Guichard" attendance="38,376">
+			<team score="2">Czech Republic</team>
+			<team score="2">Croatia</team>
+		</match>
+		<match date="2016-06-17" time="21:00" stadium="Stade de Nice"
+			attendance="33,409">
+			<team score="3">Spain</team>
+			<team score="0">Turkey</team>
+		</match>
+		<match date="2016-06-21" time="21:00"
+			stadium="Stade Bollaert-Delelis" attendance="32,836">
+			<team score="0">Czech Republic</team>
+			<team score="2">Turkey</team>
+		</match>
+		<match date="2016-06-21" time="21:00"
+			stadium="Nouveau Stade de Bordeaux" attendance="37,245">
+			<team score="2">Croatia</team>
+			<team score="1">Spain</team>
+		</match>
+	</group_stage>
+	<group_stage group="E">
+
+		<match date="2016-06-13" time="18:00" stadium="Stade de France"
+			attendance="73419">
+			<team score="1">Republic of Ireland</team>
+			<team score="1">Sweden</team>
+		</match>
+		<match date="2016-06-13" time="21:00"
+			stadium="Parc Olympique Lyonnais" attendance="55,408">
+			<team score="0">Belgium</team>
+			<team score="2">Italy</team>
+		</match>
+		<match date="2016-06-17" time="15:00"
+			stadium="Stadium Municipal" attendance="29,600">
+			<team score="1">Italy</team>
+			<team score="0">Sweden</team>
+		</match>
+		<match date="2016-06-18" time="15:00"
+			stadium="Nouveau Stade de Bordeaux" attendance="39,493">
+			<team score="3">Belgium</team>
+			<team score="0">Republic of Ireland</team>
+		</match>
+		<match date="2016-06-22" time="21:00"
+			stadium="Stade Pierre-Mauroy" attendance="44,268">
+			<team score="0">Italy</team>
+			<team score="1">Republic of Ireland</team>
+		</match>
+		<match date="2016-06-22" time="21:00" stadium="Stade de Nice"
+			attendance="34,011">
+			<team score="0">Sweden</team>
+			<team score="1">Belgium</team>
+		</match>
+	</group_stage>
+	<group_stage group="F">
+		<match date="2016-06-14" time="18:00"
+			stadium="Nouveau Stade de Bordeaux" attendance="34,424">
+			<team score="0">Austria</team>
+			<team score="2">Hungary</team>
+		</match>
+		<match date="2016-06-14" time="21:00"
+			stadium="Stade Geoffroy-Guichard" attendance="38,742">
+			<team score="1">Portugal</team>
+			<team score="1">Iceland</team>
+		</match>
+		<match date="2016-06-18" time="18:00" stadium="Stade Vélodrome"
+			attendance="60842">
+			<team score="1">Iceland</team>
+			<team score="1">Hungary</team>
+		</match>
+		<match date="2016-06-18" time="21:00" stadium="Parc des Princes"
+			attendance="44,291">
+			<team score="0">Portugal</team>
+			<team score="0">Austria</team>
+		</match>
+		<match date="2016-06-22" time="18:00" stadium="Stade de France"
+			attendance="68,714">
+			<team score="2">Iceland</team>
+			<team score="1">Austria</team>
+		</match>
+		<match date="2016-06-22" time="18:00"
+			stadium="Parc Olympique Lyonnais" attendance="55,514">
+			<team score="3">Hungary</team>
+			<team score="3">Portugal</team>
+		</match>
+	</group_stage>
+	<knock_out_phase>
+		<round_of_16>
+			<match date="2016-06-25" time="15:00"
+				stadium="Stade Geoffroy-Guichard" attendance="38,842">
+				<team score="4">Switzerland</team>
+				<team score="5">Poland</team>
+			</match>
+			<match date="2016-06-25" time="18:00"
+				stadium="Parc des Princes" attendance="44,342">
+				<team score="1">Wales</team>
+				<team score="0">Northern Ireland</team>
+			</match>
+			<match date="2016-06-25" time="21:00"
+				stadium="Stade Bollaert-Delelis" attendance="33,523">
+				<team score="0">Croatia</team>
+				<team score="1">Portugal</team>
+			</match>
+			<match date="2016-06-26" time="15:00"
+				stadium="Parc Olympique Lyonnais" attendance="56,279">
+				<team score="2">France</team>
+				<team score="1">Republic of Ireland</team>
+			</match>
+			<match date="2016-06-26" time="18:00"
+				stadium="Stade Pierre-Mauroy" attendance="44,312">
+				<team score="3">Germany</team>
+				<team score="0">Slovakia</team>
+			</match>
+			<match date="2016-06-26" time="21:00"
+				stadium="Stadium Municipal" attendance="28,921">
+				<team score="0">Hungary</team>
+				<team score="4">Belgium</team>
+			</match>
+			<match date="2016-06-27" time="18:00" stadium="Stade de France"
+				attendance="76,165">
+				<team score="2">Italy</team>
+				<team score="0">Spain</team>
+			</match>
+			<match date="2016-06-27" time="21:00" stadium="Stade de Nice"
+				attendance="33,901">
+				<team score="1">England</team>
+				<team score="2">Iceland</team>
+			</match>
+		</round_of_16>
+		<quarter_finals>		
+			<match date="2016-06-30" time="21:00" stadium="Stade Vélodrome"
+				attendance="62,940">
+				<team score="3">Poland</team>
+				<team score="5">Portugal</team>
+			</match>
+			<match date="2016-07-01" time="21:00"
+				stadium="Stade Pierre-Mauroy" attendance="45,936">
+				<team score="3">Wales</team>
+				<team score="1">Belgium</team>
+			</match>
+			<match date="2016-07-02" time="21:00"
+				stadium="Nouveau Stade de Bordeaux" attendance="38,764">
+				<team score="6">Germany</team>
+				<team score="5">Italy</team>
+			</match>
+			<match date="2016-07-03" time="21:00" stadium="Stade de France"
+				attendance="76,833">
+				<team score="5">France</team>
+				<team score="2">Iceland</team>
+			</match>
+		</quarter_finals>
+		<semi_finals>
+			<match date="2016-07-06" time="21:00"
+				stadium="Parc Olympique Lyonnais" attendance="55,679">
+				<team score="2">Portugal</team>
+				<team score="0">Wales</team>
+			</match>
+			<match date="2016-07-07" time="21:00" stadium="Stade Vélodrome"
+				attendance="64,078">
+				<team score="0">Germany</team>
+				<team score="2">France</team>
+			</match>
+		</semi_finals>
+		<final>
+			<match date="2016-07-10" time="21:00" stadium="Stade de France"
+				attendance="75,868">
+				<team score="1">Portugal</team>
+				<team score="0">France</team>
+			</match>
+		</final>
+	</knock_out_phase>
+</euro_cup>
